@@ -22,7 +22,7 @@ const fetchData = async()=>{
         const res = await fetch('api.json')
         const data = await res.json()
         pintarCard(data)
-
+ //comentarios
     }
     catch(error){
         console.log(error) // consola
